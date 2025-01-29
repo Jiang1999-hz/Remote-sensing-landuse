@@ -29,3 +29,49 @@ source env/bin/activate
 # Using conda
 conda create -n ump-prediction python=3.8
 conda activate ump-prediction
+
+Remote-sensing-landuse/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── README.md
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── model_evaluation.py
+│   └── utils.py
+├── notebooks/
+│   ├── data_exploration.ipynb
+│   ├── model_building.ipynb
+│   └── results_visualization.ipynb
+├── experiments/
+│   ├── experiment_1/
+│   │   ├── config.yaml
+│   │   └── results/
+│   └── experiment_2/
+│       ├── config.yaml
+│       └── results/
+├── tests/
+│   ├── test_data_preprocessing.py
+│   ├── test_model_training.py
+│   └── test_model_evaluation.py
+├── docs/
+│   ├── thesis/
+│   │   ├── chapters/
+│   │   │   ├── introduction.md
+│   │   │   ├── methodology.md
+│   │   │   ├── results.md
+│   │   │   └── conclusion.md
+│   │   └── references.bib
+│   └── README.md
+├── scripts/
+│   ├── run_preprocessing.sh
+│   ├── run_training.sh
+│   └── run_evaluation.sh
+└── references/
+    └── related_work.pdf
